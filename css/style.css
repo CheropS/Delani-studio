@@ -28,7 +28,23 @@ header {
 .card-body {
     text-align: center;
 }
-h1 {
+header h1{
+
     text-align: center;
+    color: white;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+.services {
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-size: large;
+}
+#serv {
+    padding-top: 60px;
     color: white;
 }
