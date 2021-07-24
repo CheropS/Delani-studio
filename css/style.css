@@ -3,6 +3,28 @@ header {
     height: 900px;
     background-size: cover;
 }
+#logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+#wel {
+    padding-top: 30px;
+}
+#intro {
+    text-align: center;
+    color: white;
+}
+.mouse {
+    display: block;
+    width: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+}
 .card-body {
     text-align: center;
 }
