@@ -1,6 +1,12 @@
+header {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    height: 900px;
+    background-size: cover;
+}
 .card-body {
     text-align: center;
 }
 h1 {
     text-align: center;
+    color: white;
 }
