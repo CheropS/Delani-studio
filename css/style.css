@@ -82,3 +82,7 @@ input {
     height: 200px;
     width: 50%;
 }
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
