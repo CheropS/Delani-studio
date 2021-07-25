@@ -96,6 +96,24 @@ $(document).ready(function() {
         $(".txt-des").hide();
         $(".img-des").toggle();
     })
+
+    $(".img-dvp").click(function(){
+        $(".txt-dvp").show ();
+        $("img-dvp").toggle();
+    })
+    $(".img-dvp").click(function(){
+        $(".txt-dvp").hide();
+        $(".img-dvp").toggle();
+    })
+
+    $(".img-prd").click(function(){
+        $(".txt-prd").show ();
+        $("img-prd").toggle();
+    })
+    $(".img-prd").click(function(){
+        $(".txt-prd").hide();
+        $(".img-prd").toggle();
+    })
 });
 
 
