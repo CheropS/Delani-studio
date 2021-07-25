@@ -86,6 +86,16 @@ $(document).ready(function() {
         $(".p8txt").toggle();
         $("#p-main8").css('background', 'none')
     });
+
+
+    $(".img-des").click(function(){
+        $(".txt-des").show ();
+        $("img-des").toggle();
+    })
+    $(".img-des").click(function(){
+        $(".txt-des").hide();
+        $(".img-des").toggle();
+    })
 });
 
 
