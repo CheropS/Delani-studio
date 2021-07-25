@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,12 +41,12 @@
             <p>The outcome of this scoping session is proposal or high-level statement of work</p>
             <p>Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
         </div>
-    </section>
+    </section><br>
     <section>
         <h2>WHAT WE DO</h2>
         <div class="container">
             <div id="cont">
-                <div class="card-body">
+                <div class="card-body des">
                     <img src="assets/services_icons/design_icon.png" alt="">
                     <p class="card-text">Our design practice offers a full range of services including brand strategy,
                         interaction and visual design and user experience testing.
@@ -54,14 +54,14 @@
                         user feedback and work with you to make sure what gets built is what is needed.
                     </p>
                 </div>
-                <div class="card-body">
-                    <img src="assets/services_icons/dev_icon.png" alt="">
+                <div class="card-body dev">
+                    <img src="assets/services_icons/dev_icon.png" alt="" id="dev">
                     <p class="card-text">All engineers are fluent in the latest enterprise, mobile and web development
                         technologies.
                         They collaborate with your team to write, and improve code on a daily basis, using proven
                         practices such as test-driven development and pair programming.</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body prod">
                     <img src="assets/services_icons/product_icon.png" alt="">
                     <p class="card-text">Planning and development is iterative. Because we are constantly coding and
                         testing, the products we build are always ready to go live.
@@ -69,11 +69,107 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="card">
+    </section><br>
+    <div class="portfolio">
+        <h3>PORTFOLIO</h3><br><br>
+        <div class="container">
+            <div class="row">
+                <!-- portfolio 1 -->
+                <div class="col-md-3 p-main1" id="p-main1">
+                    <div class="img-hide1">
+                        <img src="assets/portfolio/work4.jpg" class="img-fluid p1img" alt="">
+                    </div>
+                    <div class="overlay p1txt" style="border: solid 5px white; display: none;">
+                        <p id="p1txt">
+                            Portfolio Item 1
+                        </p>
+                    </div> 
+                </div><br><br>
+                <!-- portfolio 2 -->
+
+                <div class="col-md-3 p-main2">
+                    <div class="img-hide2">
+                        <img src="assets/portfolio/work3.jpg" class="img-fluid p2img" alt="">
+                    </div>
+                    <div class="overlay p2txt" style="border: solid 5px white; display: none;">
+                        <p id="p2txt">
+                            Portfolio Item 2
+                        </p>
+                    </div> 
+                </div>
+                <!-- portfolio 3 -->
+                <div class="col-md-3 p-main-3">
+                    <div class="img-hide3">
+                        <img src="assets/portfolio/work2.jpg" class="img-fluid p2img" alt="">
+                    </div>
+                    <div class="overlay p3txt" style="border: solid 5px white; display: none;">
+                        <p id="p3txt">
+                            Portfolio Item 2
+                        </p>
+                    </div> 
+                </div>
+                <!-- portfolio 4 -->
+                <div class="col-md-3 p-main4">
+                    <div class="view">
+                        <p id="p4txt"  class="overlay" style="border: solid 5px white; display: none;">
+                            Portfolio 4
+                        </p>
+                        <img src="/assets/portfolio/work1.jpg" class="img-fluid p4img" alt="">
+                    </div>
+                </div>
+            </div><br>
+            <!-- portfolio 5 -->
+            <div class="row">
+                <div class="col-md-3 p-main5">
+                    <div class="view">
+                        <p id="p5txt"  class="overlay" style="border: solid 5px white; display: none;">
+                            Portfolio 5
+                        </p>
+                        <img src="/assets/portfolio/work5.jpg" class="img-fluid p5img" alt="">
+                    </div>
+                </div>
+                <!-- portfolio 6 -->
+                <div class="col-md-3 p-main6">
+                    <div class="view ">
+                        <p id="p6txt"  class="overlay" style="border: solid 5px white; display: none;">
+                            Portfolio 6
+                        </p>
+                        <img src="/assets/portfolio/work6.jpg" class="img-fluid p6img" alt="">
+                    </div>
+                </div>
+                <!-- portfolio 7 -->
+                <div class="col-md-3 p-main7">
+                    <div class="view">
+                        <p id="p7txt"  class="overlay" style="border: solid 5px white; display: none;">
+                            Portfolio 7
+                        </p>
+                        <img src="/assets/portfolio/work7.jpg" class="img-fluid p7img" alt="">
+                    </div>
+                </div>
+                <!-- portfolio 8 -->
+                <div class="col-md-3 p-main8">
+                    <div class="view zoom">
+                        <p id="p8txt"  class="overlay" style="border: solid 5px white; display: none;">
+                            Portfolio 8
+                        </p>
+                        <img src="/assets/portfolio/work8.jpg" class="img-fluid p8img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+    <!-- <section class="card">
         <h2>PORTFOLIO</h2>
         <div class="port">
-            <img src="assets/portfolio/work4.jpg" alt="">
+            <div class="p1-main">
+                <div class="p1-img">
+                    <img src="assets/portfolio/work4.jpg" alt="">
+                </div>
+                <div style="display: none;" class="p1-text">
+                    <p>portfolio 1</p>
+                </div>
+                
+            </div>
             <img src="assets/portfolio/work3.jpg" alt="">
             <img src="assets/portfolio/work2.jpg" alt="">
             <img src="assets/portfolio/work1.jpg" alt="">
@@ -82,7 +178,7 @@
             <img src="assets/portfolio/work7.jpg" alt="">
             <img src="assets/portfolio/work8.jpg" alt="">
         </div>
-    </section>
+    </section> -->
         <section class="contactus">
                 <h2 id="us">CONTACT US</h2>
                     <form action="/action_page.php">
