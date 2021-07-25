@@ -18,12 +18,13 @@ $(document).ready(function() {
     $(".p-main2").mouseleave(function() {
         $(".img-hide2").show();
         $(".p2txt").hide();
+        $("#p-main2").css('background', 'none')
     });
 
     $(".p-main3").mouseenter(function(){
         $(".img-hide3").hide();
         $(".p3txt").show();
-        $('.p-main3').css('background','url(./assets/portfolio/work3.jpg)')
+        $('.p-main3').css('background','url(./assets/portfolio/work2.jpg)')
     });
     $(".p-main3").mouseleave(function() {
         $(".img-hide3").show();
