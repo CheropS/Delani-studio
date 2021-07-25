@@ -22,13 +22,14 @@ $(document).ready(function() {
     });
 
     $(".p-main3").mouseenter(function(){
-        $(".img-hide3").hide();
-        $(".p3txt").show();
-        $('.p-main3').css('background','url(./assets/portfolio/work2.jpg)')
+        $(".img-hide3").toggle();
+        $(".p3txt").toggle();
+        $('#p-main3').css('background','url(./assets/portfolio/work2.jpg)')
     });
     $(".p-main3").mouseleave(function() {
-        $(".img-hide3").show();
-        $(".p3txt").hide();
+        $(".img-hide3").toggle();
+        $(".p3txt").toggle();
+        $("#p-main3").css('background', 'none')
     });
 });
 
