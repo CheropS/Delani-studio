@@ -48,7 +48,37 @@ h2 {
     padding-top: 60px;
     color: white;
 }
-.container {
+#cont{
     display: flex;
     flex-direction: row;
+}
+.port {
+    margin-left: 2.5%;
+    
+}
+.contactus {
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    /* height: 700px; */
+    background-size: cover;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+input {
+    background: transparent;
+    border: 1px white solid;
+}
+
+::placeholder {
+    color: white;
+}
+#us {
+    color: white;
+}
+#name ,#mail {
+    width: 25%;
+}
+#msg {
+    height: 200px;
+    width: 50%;
 }
