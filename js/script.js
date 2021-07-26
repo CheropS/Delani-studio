@@ -114,6 +114,24 @@ $(document).ready(function() {
         $(".txt-prd").hide();
         $(".img-prd").toggle();
     })
+
+    
 });
 
+/*validating form*/
+function validateForm() {
+    var fName=document.getElementById("name").value;
+    var email=document.getElementById("mail").value;
+    var message=document.getElementById("msg").value;
 
+    if(fName=="") {
+        alert("Name can't be blank");
+        return false;
+    } else if (email=="") {
+        alert("Email is invalid");
+        return false;
+    } else if (message="") {
+        alert("Message must be added");
+    }
+
+}
