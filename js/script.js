@@ -90,30 +90,31 @@ $(document).ready(function() {
 
     $(".des").click(function(){
         $(".img-des").toggle ();
-        $("txt-des").toggle();
-    })
-    $(".img-des").click(function(){
         $(".txt-des").toggle();
-        $(".img-des").toggle();
+    })
+    // $(".img-des").click(function(){
+    //     $(".txt-des").toggle();
+    //     $(".img-des").toggle();
+    // })
+
+    $(".dvp").click(function(){
+        $(".img-dvp").toggle ();
+        $(".txt-dvp").toggle();
     })
 
-    $(".img-dvp").click(function(){
-        $(".txt-dvp").show ();
-        $("img-dvp").toggle();
-    })
-    $(".img-dvp").click(function(){
-        $(".txt-dvp").hide();
-        $(".img-dvp").toggle();
-    })
+    // $(".img-dvp").click(function(){
+    //     $(".txt-dvp").hide();
+    //     $(".img-dvp").toggle();
+    // })
 
-    $(".img-prd").click(function(){
-        $(".txt-prd").show ();
-        $("img-prd").toggle();
+    $(".prd").click(function(){
+        $(".img-prd").toggle ();
+        $(".txt-prd").toggle();
     })
-    $(".img-prd").click(function(){
-        $(".txt-prd").hide();
-        $(".img-prd").toggle();
-    })
+    // $(".img-prd").click(function(){
+    //     $(".txt-prd").hide();
+    //     $(".img-prd").toggle();
+    // })
 
     
 });
