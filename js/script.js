@@ -88,12 +88,12 @@ $(document).ready(function() {
     });
 
 
-    $(".img-des").click(function(){
-        $(".img-des").removeClass ();
-        $("txt-des").addClass();
+    $(".des").click(function(){
+        $(".img-des").toggle ();
+        $("txt-des").toggle();
     })
     $(".img-des").click(function(){
-        $(".txt-des").hide();
+        $(".txt-des").toggle();
         $(".img-des").toggle();
     })
 
