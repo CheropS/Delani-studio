@@ -16,7 +16,7 @@ Javascript and jQuery.
 
 ### Installing
 
-* The website is found by following the link: 
+* The website is found by following the link: https://cherops.github.io/Delani-studio/
 
 
 ## Issues 
