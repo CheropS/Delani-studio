@@ -89,8 +89,8 @@ $(document).ready(function() {
 
 
     $(".img-des").click(function(){
-        $(".txt-des").show ();
-        $("img-des").toggle();
+        $(".img-des").removeClass ();
+        $("txt-des").addClass();
     })
     $(".img-des").click(function(){
         $(".txt-des").hide();
