@@ -25,9 +25,8 @@ In case of any bug issues while running or using the page, please contact me thr
 
 
 ## Authors
-
 Sharon Cherop
-sh.cherop@gmail.com 
+
 
 ## License
 
